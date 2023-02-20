@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import StudentInfor from '../src/Exercise1/StudentInfor'
+import { BrowserInfor } from './Exercise1/BrowserInfor';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <StudentInfor></StudentInfor>
+    <BrowserInfor></BrowserInfor>
   </React.StrictMode>
 );
 
