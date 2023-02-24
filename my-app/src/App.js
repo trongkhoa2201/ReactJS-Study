@@ -1,9 +1,9 @@
-import DisplayStudent from "./Component/DisplayStudent";
+import AlertComponent from "./Component/AlertComponent";
 
 function App() {
   return (
     <div>
-      <DisplayStudent/>
+      <AlertComponent/>
     </div>
   )
 }

@@ -19,7 +19,8 @@ const DisplayStudent = () => {
             <th>Age</th>
             <th>Address</th>
         </tr>
-        {StudentInfo.map(student => (<tr>
+        {StudentInfo.map(student => (<tr
+        key={StudentInfo}>
             <td>{student.Id}</td>
             <td>{student.Name}</td>
             <td>{student.Age}</td>
