@@ -1,9 +1,10 @@
-import AlertComponent from "./Component/AlertComponent";
+import Time from "./Hook/Timer/Time";
+
 
 function App() {
   return (
     <div>
-      <AlertComponent/>
+      <Time/>
     </div>
   )
 }

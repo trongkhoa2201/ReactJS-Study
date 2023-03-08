@@ -1,0 +1,11 @@
+.Clock-style{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.558);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
