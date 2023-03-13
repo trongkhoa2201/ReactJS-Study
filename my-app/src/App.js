@@ -1,10 +1,10 @@
-import Time from "./Hook/Timer/Time";
+import RegisterForm from "./Form/RegisterForm";
 
 
 function App() {
   return (
     <div>
-      <Time/>
+      <RegisterForm/>
     </div>
   )
 }
