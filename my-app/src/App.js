@@ -1,11 +1,9 @@
-import RegisterForm from "./Form/RegisterForm";
+import PathRouter2 from "./Router/Router2/PathRouter2";
 
 
 function App() {
   return (
-    <div>
-      <RegisterForm/>
-    </div>
+      <PathRouter2/>
   )
 }
 
